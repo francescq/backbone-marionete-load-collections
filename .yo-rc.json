@@ -1,0 +1,8 @@
+{
+  "generator-backbone-marionette": {
+    "bootstrapFormat": "css",
+    "templateFramework": "handlebars",
+    "includeFontAwesome": true,
+    "file": "${file}"
+  }
+}

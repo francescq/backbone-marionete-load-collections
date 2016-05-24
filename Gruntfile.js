@@ -40,6 +40,8 @@ module.exports = function (grunt) {
 	 * Runs the tests in a continuous environemnt (CI server)
 	 */
 	grunt.registerTask('test:continuous', [ 'buildTest', 'karma:continuous' ]);
+	
+	grunt.registerTask('default', ['serve']);
 
 
 };
